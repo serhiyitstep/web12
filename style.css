@@ -1,0 +1,45 @@
+*{box-sizing: border-box;}
+.wrap{
+	width: 1000px;
+	margin: 40px auto;	
+}
+section{min-height: 600px;}
+a{
+	padding: 20px 40px;
+	background-color: #eee;
+	border: solid 2px #333;
+}
+a:hover{
+	background-color: #e36;
+}
+a:active{
+	background-color: #e63;
+	color: 	white;
+}
+a:link{
+	background-color: #e63;
+	color: 	green;
+}
+a:visited{
+	background-color: #e63;
+	color: 	green;
+}
+
+
+
+.animation{
+	height: 40px;
+	width: 200px;
+	background-color: #9c3;
+	animation: load 5s linear;
+}
+
+
+@keyframes load{
+	0%{
+		width: 20px;
+	}
+	100%{
+		width: 400px;
+	}
+}
